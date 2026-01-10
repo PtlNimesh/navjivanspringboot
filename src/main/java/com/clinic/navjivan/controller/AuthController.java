@@ -14,7 +14,7 @@ import org.springframework.web.bind.annotation.RestController;
 // Supports: localhost:3000, devtunnel frontend, and any other origins
 @CrossOrigin(origins = {
         "http://localhost:3000",
-        "https://dq13wjxp-3000.inc1.devtunnels.ms"
+        "http://navjivan.vercel.app"
 }, maxAge = 3600)
 @RestController
 @RequestMapping("/api/auth")
